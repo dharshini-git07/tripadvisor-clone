@@ -1,6 +1,6 @@
-# 🌍 TripAdvisor- Travel Website
+# 🌍 TripGuide- Travel Website
 
-TripAdvisor is a responsive travel website inspired by Tripadvisor.in, built using **HTML5** and **CSS3**. The project showcases popular travel destinations, hotels, restaurants, and travel experiences with a clean and modern user interface.
+TripGuide is a responsive travel website inspired by Tripadvisor.in, built using **HTML5** and **CSS3**. The project showcases popular travel destinations, hotels, restaurants, and travel experiences with a clean and modern user interface.
 
 ---
 
