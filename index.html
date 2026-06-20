@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripAdvisor | Explore the World</title>
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome cdn Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./images/logo.png" alt="Trip Logo">
+                <h2>TripAdvisor</h2>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Things To Do</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Reviews</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <button class="login-btn">Login</button>
+                <button class="signup-btn">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+        <div class="hero-overlay">
+            <h1>Discover Your Next Adventure</h1>
+            <p>
+                Explore breathtaking destinations, luxury hotels,
+                amazing restaurants and unforgettable travel experiences.
+            </p>
+
+            <div class="search-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Search destinations...">
+                <button>Explore</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="categories">
+        <div class="section-title">
+            <h2>Explore By Category</h2>
+            <p>Choose your next adventure</p>
+        </div>
+
+        <div class="category-container">
+            <div class="category-card">
+                <img src="./images/photo-camera.png" class="small-icon">
+                <h3>Photography Tours</h3>
+                <p>Capture unforgettable memories.</p>
+            </div>
+
+            <div class="category-card">
+                <img src="./images/sleeping.png" class="small-icon">
+                <h3>Hotels & Resorts</h3>
+                <p>Comfortable stays for every budget.</p>
+            </div>
+
+            <div class="category-card">
+                <img src="./images/restaurant.png" class="small-icon">
+                <h3>Food & Dining</h3>
+                <p>Taste local and international cuisine.</p>
+            </div>
+
+            <div class="category-card">
+                <img src="./images/heart.png" class="small-icon">
+                <h3>Favourite Trips</h3>
+                <p>Save places you love.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="destinations">
+        <div class="section-title">
+            <h2>Trending Destinations</h2>
+        </div>
+
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="./images/paris.jpg">
+                <div class="destination-info">
+                    <h3>Paris</h3>
+                    <p>France</p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="./images/bali.jpg">
+                <div class="destination-info">
+                    <h3>Bali</h3>
+                    <p>Indonesia</p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="./images/maldives.jpg">
+                <div class="destination-info">
+                    <h3>Maldives</h3>
+                    <p>Indian Ocean</p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="./images/tokyo.jpg">
+                <div class="destination-info">
+                    <h3>Tokyo</h3>
+                    <p>Japan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="section-title">
+            <h2>Why Choose TripAdvisor?</h2>
+        </div>
+
+        <div class="feature-container">
+            <div class="feature-card">
+                <img src="./images/right.png" class="small-icon">
+                <h3>Verified Reviews</h3>
+                <p>Real feedback from travellers.</p>
+            </div>
+
+            <div class="feature-card">
+                <img src="./images/right.png" class="small-icon">
+                <h3>Best Hotel Deals</h3>
+                <p>Affordable stays with premium comfort.</p>
+            </div>
+
+            <div class="feature-card">
+                <img src="./images/right.png" class="small-icon">
+                <h3>Easy Planning</h3>
+                <p>Everything you need in one place.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hotels">
+        <div class="section-title">
+            <h2>Recommended Hotels</h2>
+        </div>
+
+        <div class="hotel-container">
+            <div class="hotel-card">
+                <img src="./images/hotel1.jpg">
+                <h3>Blue Ocean Resort</h3>
+                <p>⭐⭐⭐⭐⭐</p>
+                <span>$180 / Night</span>
+                <button>Book Now</button>
+            </div>
+
+            <div class="hotel-card">
+                <img src="./images/hotel3.jpg">
+                <h3>Mountain View Hotel</h3>
+                <p>⭐⭐⭐⭐</p>
+                <span>$150 / Night</span>
+                <button>Book Now</button>
+            </div>
+
+            <div class="hotel-card">
+                <img src="./images/hotel2.jpg">
+                <h3>City Central Inn</h3>
+                <p>⭐⭐⭐⭐⭐</p>
+                <span>$210 / Night</span>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>TripAdvisor</h3>
+                <p>Your travel companion for discovering amazing destinations.</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <p>Home</p>
+                <p>Hotels</p>
+                <p>Restaurants</p>
+                <p>Reviews</p>
+            </div>
+
+            <div>
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <p class="copyright">© 2026 TripAdvisor. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>
